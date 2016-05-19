@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054BB3151CEDC90000AE584E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BB3141CEDC90000AE584E /* main.m */; };
+		054BB3181CEDC90000AE584E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BB3171CEDC90000AE584E /* AppDelegate.m */; };
+		054BB31B1CEDC90000AE584E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BB31A1CEDC90000AE584E /* ViewController.m */; };
+		054BB31E1CEDC90000AE584E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054BB31C1CEDC90000AE584E /* Main.storyboard */; };
+		054BB3201CEDC90000AE584E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054BB31F1CEDC90000AE584E /* Assets.xcassets */; };
+		054BB3231CEDC90000AE584E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054BB3211CEDC90000AE584E /* LaunchScreen.storyboard */; };
+		054BB32E1CEDC90000AE584E /* MultipleRightBtnOnTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BB32D1CEDC90000AE584E /* MultipleRightBtnOnTableViewTests.m */; };
+		054BB3391CEDC90000AE584E /* MultipleRightBtnOnTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BB3381CEDC90000AE584E /* MultipleRightBtnOnTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		054BB32A1CEDC90000AE584E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 054BB3081CEDC90000AE584E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 054BB30F1CEDC90000AE584E;
+			remoteInfo = MultipleRightBtnOnTableView;
+		};
+		054BB3351CEDC90000AE584E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 054BB3081CEDC90000AE584E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 054BB30F1CEDC90000AE584E;
+			remoteInfo = MultipleRightBtnOnTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054BB3101CEDC90000AE584E /* MultipleRightBtnOnTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleRightBtnOnTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		054BB3141CEDC90000AE584E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		054BB3161CEDC90000AE584E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		054BB3171CEDC90000AE584E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		054BB3191CEDC90000AE584E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		054BB31A1CEDC90000AE584E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		054BB31D1CEDC90000AE584E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		054BB31F1CEDC90000AE584E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		054BB3221CEDC90000AE584E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		054BB3241CEDC90000AE584E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054BB3291CEDC90000AE584E /* MultipleRightBtnOnTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleRightBtnOnTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		054BB32D1CEDC90000AE584E /* MultipleRightBtnOnTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleRightBtnOnTableViewTests.m; sourceTree = "<group>"; };
+		054BB32F1CEDC90000AE584E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054BB3341CEDC90000AE584E /* MultipleRightBtnOnTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleRightBtnOnTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		054BB3381CEDC90000AE584E /* MultipleRightBtnOnTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleRightBtnOnTableViewUITests.m; sourceTree = "<group>"; };
+		054BB33A1CEDC90000AE584E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054BB30D1CEDC90000AE584E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054BB3261CEDC90000AE584E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054BB3311CEDC90000AE584E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054BB3071CEDC90000AE584E = {
+			isa = PBXGroup;
+			children = (
+				054BB3121CEDC90000AE584E /* MultipleRightBtnOnTableView */,
+				054BB32C1CEDC90000AE584E /* MultipleRightBtnOnTableViewTests */,
+				054BB3371CEDC90000AE584E /* MultipleRightBtnOnTableViewUITests */,
+				054BB3111CEDC90000AE584E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		054BB3111CEDC90000AE584E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				054BB3101CEDC90000AE584E /* MultipleRightBtnOnTableView.app */,
+				054BB3291CEDC90000AE584E /* MultipleRightBtnOnTableViewTests.xctest */,
+				054BB3341CEDC90000AE584E /* MultipleRightBtnOnTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		054BB3121CEDC90000AE584E /* MultipleRightBtnOnTableView */ = {
+			isa = PBXGroup;
+			children = (
+				054BB3161CEDC90000AE584E /* AppDelegate.h */,
+				054BB3171CEDC90000AE584E /* AppDelegate.m */,
+				054BB3191CEDC90000AE584E /* ViewController.h */,
+				054BB31A1CEDC90000AE584E /* ViewController.m */,
+				054BB31C1CEDC90000AE584E /* Main.storyboard */,
+				054BB31F1CEDC90000AE584E /* Assets.xcassets */,
+				054BB3211CEDC90000AE584E /* LaunchScreen.storyboard */,
+				054BB3241CEDC90000AE584E /* Info.plist */,
+				054BB3131CEDC90000AE584E /* Supporting Files */,
+			);
+			path = MultipleRightBtnOnTableView;
+			sourceTree = "<group>";
+		};
+		054BB3131CEDC90000AE584E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				054BB3141CEDC90000AE584E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		054BB32C1CEDC90000AE584E /* MultipleRightBtnOnTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				054BB32D1CEDC90000AE584E /* MultipleRightBtnOnTableViewTests.m */,
+				054BB32F1CEDC90000AE584E /* Info.plist */,
+			);
+			path = MultipleRightBtnOnTableViewTests;
+			sourceTree = "<group>";
+		};
+		054BB3371CEDC90000AE584E /* MultipleRightBtnOnTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				054BB3381CEDC90000AE584E /* MultipleRightBtnOnTableViewUITests.m */,
+				054BB33A1CEDC90000AE584E /* Info.plist */,
+			);
+			path = MultipleRightBtnOnTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		054BB30F1CEDC90000AE584E /* MultipleRightBtnOnTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054BB33D1CEDC90000AE584E /* Build configuration list for PBXNativeTarget "MultipleRightBtnOnTableView" */;
+			buildPhases = (
+				054BB30C1CEDC90000AE584E /* Sources */,
+				054BB30D1CEDC90000AE584E /* Frameworks */,
+				054BB30E1CEDC90000AE584E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleRightBtnOnTableView;
+			productName = MultipleRightBtnOnTableView;
+			productReference = 054BB3101CEDC90000AE584E /* MultipleRightBtnOnTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		054BB3281CEDC90000AE584E /* MultipleRightBtnOnTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054BB3401CEDC90000AE584E /* Build configuration list for PBXNativeTarget "MultipleRightBtnOnTableViewTests" */;
+			buildPhases = (
+				054BB3251CEDC90000AE584E /* Sources */,
+				054BB3261CEDC90000AE584E /* Frameworks */,
+				054BB3271CEDC90000AE584E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				054BB32B1CEDC90000AE584E /* PBXTargetDependency */,
+			);
+			name = MultipleRightBtnOnTableViewTests;
+			productName = MultipleRightBtnOnTableViewTests;
+			productReference = 054BB3291CEDC90000AE584E /* MultipleRightBtnOnTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		054BB3331CEDC90000AE584E /* MultipleRightBtnOnTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054BB3431CEDC90000AE584E /* Build configuration list for PBXNativeTarget "MultipleRightBtnOnTableViewUITests" */;
+			buildPhases = (
+				054BB3301CEDC90000AE584E /* Sources */,
+				054BB3311CEDC90000AE584E /* Frameworks */,
+				054BB3321CEDC90000AE584E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				054BB3361CEDC90000AE584E /* PBXTargetDependency */,
+			);
+			name = MultipleRightBtnOnTableViewUITests;
+			productName = MultipleRightBtnOnTableViewUITests;
+			productReference = 054BB3341CEDC90000AE584E /* MultipleRightBtnOnTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		054BB3081CEDC90000AE584E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = haidai;
+				TargetAttributes = {
+					054BB30F1CEDC90000AE584E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					054BB3281CEDC90000AE584E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 054BB30F1CEDC90000AE584E;
+					};
+					054BB3331CEDC90000AE584E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 054BB30F1CEDC90000AE584E;
+					};
+				};
+			};
+			buildConfigurationList = 054BB30B1CEDC90000AE584E /* Build configuration list for PBXProject "MultipleRightBtnOnTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 054BB3071CEDC90000AE584E;
+			productRefGroup = 054BB3111CEDC90000AE584E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				054BB30F1CEDC90000AE584E /* MultipleRightBtnOnTableView */,
+				054BB3281CEDC90000AE584E /* MultipleRightBtnOnTableViewTests */,
+				054BB3331CEDC90000AE584E /* MultipleRightBtnOnTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		054BB30E1CEDC90000AE584E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054BB3231CEDC90000AE584E /* LaunchScreen.storyboard in Resources */,
+				054BB3201CEDC90000AE584E /* Assets.xcassets in Resources */,
+				054BB31E1CEDC90000AE584E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054BB3271CEDC90000AE584E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054BB3321CEDC90000AE584E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		054BB30C1CEDC90000AE584E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054BB31B1CEDC90000AE584E /* ViewController.m in Sources */,
+				054BB3181CEDC90000AE584E /* AppDelegate.m in Sources */,
+				054BB3151CEDC90000AE584E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054BB3251CEDC90000AE584E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054BB32E1CEDC90000AE584E /* MultipleRightBtnOnTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054BB3301CEDC90000AE584E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054BB3391CEDC90000AE584E /* MultipleRightBtnOnTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		054BB32B1CEDC90000AE584E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 054BB30F1CEDC90000AE584E /* MultipleRightBtnOnTableView */;
+			targetProxy = 054BB32A1CEDC90000AE584E /* PBXContainerItemProxy */;
+		};
+		054BB3361CEDC90000AE584E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 054BB30F1CEDC90000AE584E /* MultipleRightBtnOnTableView */;
+			targetProxy = 054BB3351CEDC90000AE584E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		054BB31C1CEDC90000AE584E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054BB31D1CEDC90000AE584E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		054BB3211CEDC90000AE584E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054BB3221CEDC90000AE584E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		054BB33B1CEDC90000AE584E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		054BB33C1CEDC90000AE584E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		054BB33E1CEDC90000AE584E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultipleRightBtnOnTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidai.MultipleRightBtnOnTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		054BB33F1CEDC90000AE584E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultipleRightBtnOnTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidai.MultipleRightBtnOnTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		054BB3411CEDC90000AE584E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultipleRightBtnOnTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidai.MultipleRightBtnOnTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleRightBtnOnTableView.app/MultipleRightBtnOnTableView";
+			};
+			name = Debug;
+		};
+		054BB3421CEDC90000AE584E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultipleRightBtnOnTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidai.MultipleRightBtnOnTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleRightBtnOnTableView.app/MultipleRightBtnOnTableView";
+			};
+			name = Release;
+		};
+		054BB3441CEDC90000AE584E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultipleRightBtnOnTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidai.MultipleRightBtnOnTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultipleRightBtnOnTableView;
+			};
+			name = Debug;
+		};
+		054BB3451CEDC90000AE584E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultipleRightBtnOnTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidai.MultipleRightBtnOnTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultipleRightBtnOnTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		054BB30B1CEDC90000AE584E /* Build configuration list for PBXProject "MultipleRightBtnOnTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054BB33B1CEDC90000AE584E /* Debug */,
+				054BB33C1CEDC90000AE584E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		054BB33D1CEDC90000AE584E /* Build configuration list for PBXNativeTarget "MultipleRightBtnOnTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054BB33E1CEDC90000AE584E /* Debug */,
+				054BB33F1CEDC90000AE584E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		054BB3401CEDC90000AE584E /* Build configuration list for PBXNativeTarget "MultipleRightBtnOnTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054BB3411CEDC90000AE584E /* Debug */,
+				054BB3421CEDC90000AE584E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		054BB3431CEDC90000AE584E /* Build configuration list for PBXNativeTarget "MultipleRightBtnOnTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054BB3441CEDC90000AE584E /* Debug */,
+				054BB3451CEDC90000AE584E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 054BB3081CEDC90000AE584E /* Project object */;
+}
